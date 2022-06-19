@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  border:none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+html{
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+body{
+  display:flex;
+  height: 100vh;
+  background: var(--body-bg-color);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20.1rem;
+}
+
+.container .perfil img{
+  width: 20rem ;
+  height: 20rem ;
+  padding: .7rem;
+  border: 2px solid var(--purple);
+  border-radius: 10rem;
+}
+
+p{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  margin-bottom: 1.7rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color:var(--purple)
+}
+
+p img{
+  padding: .2rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.link1, .link2, .link3, .link4 {
+  display: inline;
+  
+  margin: 1rem;
+  width: 32.6rem;
+  height: 4.9rem;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  
+}
+
+.links p{
+  font-weight: 600;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+  
+  
+}
+
+.links p img{
+ margin-right: 1rem;
+ margin-top: -.5rem;
+}
